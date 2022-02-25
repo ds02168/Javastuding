@@ -1,0 +1,29 @@
+class Box{
+	int width;
+	int height;
+	int depth;
+}
+
+
+
+
+public class TwoBox {
+	public static void main(String[] args) {
+		int vol1;
+		
+		Box mb1 = new Box();
+		Box mb2 = new Box();
+		
+		mb1.width=10;
+		mb1.height = 20;
+		mb1.depth = 30;
+		
+		vol1 = mb1.width*mb1.height*mb1.depth;
+		
+		System.out.println("Box1 volume = " + vol1 + "юс.");
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+class Box{
+	int width;
+	int height;
+	int depth;
+}
+
+
+
+
+public class Sixobj {
+	public static void main(String[] args) {
+		
+	}
+}
